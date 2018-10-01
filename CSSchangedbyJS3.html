@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <style>
+      #shadow {
+      width: 500px;
+      height: 500px;
+      background-color:#8fc89b;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="changeMe()">Change</button>
+    <div id="shadow"></div>
+    <script>
+      function changeMe() {
+        document.getElementById('shadow').style.boxShadow = "10px 20px 5px #12130"
+      }
+    </script>
+  </body>
+  
+</html>
